@@ -1,8 +1,2 @@
-{
-  "outputDirectory": ".",
-  "buildCommand": null,
-  "devCommand": null,
-  "installCommand": null }
-git add vercel.json
-git commit -m "Add Vercel static config"
-git push
+{}
+  
