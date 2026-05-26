@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taste of Home Foods | Premium Nigerian Foodstuff &amp; Spices</title>
+  <meta name="description" content="Taste of Home Foods provides authentic Nigerian foodstuff including Egusi, Ogbono, Pepper Soup Spice and premium local ingredients. Hygienically processed, preservative-free and export-quality. Delivery across Nigeria with shipping to the UK, USA and Canada." />
+  <meta name="keywords" content="Nigerian foodstuff, buy Egusi online, buy Ogbono online, pepper soup spice Nigeria, Nigerian soup ingredients, export-quality Nigerian food, Nigerian spices abroad" />
+  <meta property="og:title" content="Taste of Home Foods | Premium Nigerian Foodstuff & Spices" />
+  <meta property="og:description" content="Authentic Nigerian food ingredients. Hygienically processed, preservative-free, export-quality. Ships to UK, USA & Canada." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#">
+        <img src="assets/logo.jpg" alt="Taste of Home Foods" class="logo" />
+      </a>
+      <ul class="nav-links">
+        <li><button data-scroll="products">Our Pantry</button></li>
+        <li><button data-scroll="story">Our Story</button></li>
+        <li><button data-scroll="faq">FAQ</button></li>
+        <li><button class="btn btn-primary" data-wa>Order via WhatsApp</button></li>
+      </ul>
+      <button id="hamburger" class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mobile-menu">
+      <button data-scroll="products">Our Pantry</button>
+      <button data-scroll="story">Our Story</button>
+      <button data-scroll="faq">FAQ</button>
+      <button class="btn btn-primary" data-wa>Order via WhatsApp</button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-orb-1"></div>
+    <div class="hero-orb-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-label">The taste you miss, the quality you trust</span>
+        <h1 class="hero-title">
+          Bringing the<br /><em>Taste of Home</em> to You.
+        </h1>
+        <p class="hero-sub">
+          Premium, artisan-quality Nigerian spice and soup ingredients. Hygienically processed, 100% natural, and ready for your kitchen — wherever you are in the world.
+        </p>
+        <div class="hero-ctas">
+          <button class="btn btn-primary btn-lg" data-scroll="products">Shop Products</button>
+          <button class="btn btn-outline btn-lg" data-wa>Order via WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TRUST BADGES ── -->
+  <section id="trust">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item reveal stagger-1">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2z"/><path d="M8 12s1 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3 class="serif">100% Natural</h3>
+          <p>No preservatives or additives</p>
+        </div>
+        <div class="trust-item reveal stagger-2">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="serif">Export Quality</h3>
+          <p>Hygienically processed &amp; stone-free</p>
+        </div>
+        <div class="trust-item reveal stagger-3">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 3L3 10.53v.98l6.84 2.65L12.48 21h.98L21 3z"/></svg>
+          </div>
+          <h3 class="serif">Global Shipping</h3>
+          <p>Ships to UK, USA &amp; Canada</p>
+        </div>
+        <div class="trust-item reveal stagger-4">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3 class="serif">Nationwide</h3>
+          <p>Fast delivery across Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STORY ── -->
+  <section id="story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-text reveal-left">
+          <h2 class="serif">Authentic Nigerian Flavours, <em>Prepared with Care</em></h2>
+          <p>We understand the longing for the rich, authentic taste of home. But finding clean, stone-free, and well-processed local ingredients shouldn't be a challenge.</p>
+          <p>Taste of Home Foods was born out of a desire to provide premium Nigerian pantry staples that you can trust. We meticulously sort, clean, and process our spices and soup ingredients under the strictest hygienic conditions.</p>
+          <p class="story-quote">No sand. No preservatives. Just the pure, unadulterated flavour of home, securely packaged for your family's table.</p>
+        </div>
+        <div class="story-img-wrap reveal-right">
+          <div class="story-img-frame">
+            <img src="assets/stew-base.jpg" alt="Taste of Home Ingredients" loading="lazy" />
+          </div>
+          <div class="story-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRODUCTS ── -->
+  <section id="products">
+    <div class="container">
+      <span class="section-label">Our Premium Pantry</span>
+      <h2 class="section-title serif">Discover the Collection</h2>
+      <div class="products-grid">
+
+        <div class="product-card reveal stagger-1">
+          <div class="product-img">
+            <img src="assets/egusi.jpg" alt="Powder Egunsi (Melon Seed)" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Powder Egunsi (Melon Seed)</h3>
+            <p>Finely Ground · Stone-Free · Premium Quality. 100% Natural Ingredients. No Preservatives. 100g.</p>
+            <button class="btn btn-primary" data-order="Powder Egunsi (Melon Seed)">Order Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal stagger-2">
+          <div class="product-img">
+            <img src="assets/ogbono.jpg" alt="Powder Ogbono (Ground)" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Powder Ogbono (Ground)</h3>
+            <p>Finely Ground · Stone-Free · Perfect for Nigerian Soups. Rich in Nutrients. 100g.</p>
+            <button class="btn btn-primary" data-order="Powder Ogbono (Ground)">Order Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal stagger-3">
+          <div class="product-img">
+            <img src="assets/pepper-soup.jpg" alt="Pepper Soup Spice" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Pepper Soup Spice</h3>
+            <p>Authentic Nigerian Blend. Aromatic · Flavorful · Comforting. No Additives. 100g.</p>
+            <button class="btn btn-primary" data-order="Pepper Soup Spice">Order Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal stagger-4">
+          <div class="product-img">
+            <img src="assets/stew-base.jpg" alt="Powdered Mixed Stew Base" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Powdered Mixed Stew Base</h3>
+            <p>Rich · Flavorful · Authentic. The perfect base for delicious home-style stews. No Preservatives. 100g.</p>
+            <button class="btn btn-primary" data-order="Powdered Mixed Stew Base">Order Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal stagger-5">
+          <div class="product-img">
+            <img src="assets/onion.jpg" alt="Premium Onion Powder" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Premium Onion Powder</h3>
+            <p>100% Natural Onions. No Preservatives, No Additives, No Chemicals. Rich in Antioxidants. 100g.</p>
+            <button class="btn btn-primary" data-order="Premium Onion Powder">Order Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal stagger-6">
+          <div class="product-img">
+            <img src="assets/suya.jpg" alt="Suya Pepper" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Suya Pepper</h3>
+            <p>Authentic Nigerian Suya Spice. Bold · Spicy · Irresistible. No Artificial Additives. Perfect for Suya &amp; Grills. 100g.</p>
+            <button class="btn btn-primary" data-order="Suya Pepper">Order Now</button>
+          </div>
+        </div>
+
+        <div class="product-card reveal stagger-7">
+          <div class="product-img">
+            <img src="assets/ewedu.jpg" alt="Powdered Ewedu" loading="lazy" />
+            <div class="product-img-overlay"></div>
+          </div>
+          <div class="product-body">
+            <h3>Powdered Ewedu</h3>
+            <p>100% Natural Jute Leaves. No Preservatives, No Additives, No Chemicals. Rich in Vitamins &amp; Minerals. Great for Soups &amp; Stews. 100g.</p>
+            <button class="btn btn-primary" data-order="Powdered Ewedu">Order Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INTERNATIONAL SHIPPING ── -->
+  <section id="shipping">
+    <div class="container">
+      <div class="shipping-grid">
+        <div class="shipping-text reveal-left">
+          <span class="section-label" style="text-align:left;">International Delivery</span>
+          <h2 class="serif">Nigerian Ingredients Delivered Worldwide</h2>
+          <p>Missing the taste of home abroad? We ship premium Nigerian food ingredients to customers across the globe — securely packaged to maintain freshness and authentic flavour.</p>
+          <ul class="country-list">
+            <li>United Kingdom</li>
+            <li>United States</li>
+            <li>Canada</li>
+          </ul>
+        </div>
+        <div class="shipping-flags reveal-right">
+          <div class="flag-card">
+            <div class="flag-emoji">🇬🇧</div>
+            <h4 class="serif">United Kingdom</h4>
+          </div>
+          <div class="flag-card">
+            <div class="flag-emoji">🇺🇸</div>
+            <h4 class="serif">United States</h4>
+          </div>
+          <div class="flag-card">
+            <div class="flag-emoji">🇨🇦</div>
+            <h4 class="serif">Canada</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section id="testimonials">
+    <div class="container">
+      <h2 class="section-title serif reveal">Loved by Families Worldwide</h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal stagger-1">
+          <div class="quote-mark">"</div>
+          <p>"Finally, an Egusi I don't have to pick stones from! The quality is unmatched. My soups taste exactly like my grandmother's back in Lagos."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <div class="author-name">Adesuwa O.</div>
+              <div class="author-location">London, UK</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured reveal stagger-2">
+          <div class="quote-mark">"</div>
+          <p>"The pepper soup spice is incredible. It smells so fresh when you open it. I've recommended Taste of Home to all my friends here in Texas."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">C</div>
+            <div>
+              <div class="author-name">Chinedu M.</div>
+              <div class="author-location">Houston, USA</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal stagger-3">
+          <div class="quote-mark">"</div>
+          <p>"It is so convenient having these mixed and ground properly. Clean, well-packaged, and delivery to Abuja was very prompt."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">T</div>
+            <div>
+              <div class="author-name">Toluwa F.</div>
+              <div class="author-location">Abuja, Nigeria</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <h2 class="serif">Restock Your Kitchen Today</h2>
+      <p>Send us a message on WhatsApp with your location and what you need. We'll handle the rest.</p>
+      <button class="btn btn-gold btn-lg" data-wa>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="margin-right:0.5rem;flex-shrink:0"><path d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.334.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.444h.006c6.585 0 11.946-5.336 11.949-11.896 0-3.176-1.24-6.165-3.479-8.447zM12.045 21.785h-.005c-1.774 0-3.513-.477-5.031-1.378l-.361-.214-3.741.975.998-3.648-.235-.374a9.861 9.861 0 01-1.522-5.274c.003-5.45 4.455-9.887 9.928-9.887 2.651 0 5.139 1.031 7.012 2.904a9.825 9.825 0 012.907 6.988c-.003 5.452-4.456 9.908-9.95 9.908zm5.44-7.417c-.3-.149-1.767-.868-2.04-.967-.272-.099-.471-.149-.67.149-.198.297-.769.967-.943 1.166-.173.198-.347.223-.644.074-.3-.149-1.259-.463-2.399-1.475-.886-.788-1.484-1.761-1.658-2.059-.173-.297-.019-.458.131-.606.135-.134.3-.347.45-.521.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.67-1.612-.916-2.207-.241-.579-.486-.5-.67-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.793.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.572-.347z"/></svg>
+        Chat with us on WhatsApp
+      </button>
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section id="faq">
+    <div class="container">
+      <h2 class="section-title serif reveal">Frequently Asked Questions</h2>
+      <div class="faq-list">
+
+        <details class="reveal stagger-1">
+          <summary>
+            Do you ship internationally?
+            <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">Yes, we ship to the UK, USA, and Canada. Delivery times vary by location, but we ensure all products are securely packaged for international transit.</div>
+        </details>
+
+        <details class="reveal stagger-2">
+          <summary>
+            Are there any preservatives in your products?
+            <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">No, all Taste of Home Foods are 100% natural with zero preservatives, chemicals, or artificial additives.</div>
+        </details>
+
+        <details class="reveal stagger-3">
+          <summary>
+            How long do the spices stay fresh?
+            <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">When stored in a cool, dry place, our spices maintain their premium flavour and aroma for up to 12 months.</div>
+        </details>
+
+        <details class="reveal stagger-4">
+          <summary>
+            How do I place an order?
+            <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">Simply click the "Order Now" button on any product to connect with us on WhatsApp, or use the general WhatsApp button to send us your list.</div>
+        </details>
+
+        <details class="reveal stagger-5">
+          <summary>
+            Are the soup ingredients stone-free?
+            <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">Absolutely. Our Egusi and Ogbono are meticulously cleaned, picked, and finely ground to ensure a 100% stone-free, smooth texture.</div>
+        </details>
+
+        <details class="reveal stagger-6">
+          <summary>
+            Do you deliver within Nigeria?
+            <svg class="chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+          </summary>
+          <div class="faq-answer">Yes! We deliver nationwide across Nigeria. Contact us via WhatsApp to confirm delivery rates and timelines to your location.</div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.jpg" alt="Taste of Home Foods" />
+          <p>Premium, authentic Nigerian pantry staples. The taste you miss, the quality you trust.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="serif">Contact Us</h4>
+          <ul>
+            <li><a href="tel:+2348027355519">+2348027355519</a></li>
+            <li><a href="tel:+2348038293932">+2348038293932</a></li>
+            <li><a href="https://wa.me/2348027355519" target="_blank" rel="noreferrer" class="whatsapp-link">Message on WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="serif">Quick Links</h4>
+          <ul>
+            <li><button data-scroll="products">Our Products</button></li>
+            <li><button data-scroll="story">About Us</button></li>
+            <li><button data-scroll="faq">FAQ</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Taste of Home Foods. All rights reserved.</p>
+        <p>Hygienically Processed &bull; Export Ready</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── FLOATING WHATSAPP ── -->
+  <button id="whatsapp-float" aria-label="Order via WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.334.101 11.893c0 2.096.549 4.14 1.595 5.945L0 24l6.335-1.652c1.746.943 3.71 1.444 5.71 1.444h.006c6.585 0 11.946-5.336 11.949-11.896 0-3.176-1.24-6.165-3.479-8.447zM12.045 21.785h-.005c-1.774 0-3.513-.477-5.031-1.378l-.361-.214-3.741.975.998-3.648-.235-.374a9.861 9.861 0 01-1.522-5.274c.003-5.45 4.455-9.887 9.928-9.887 2.651 0 5.139 1.031 7.012 2.904a9.825 9.825 0 012.907 6.988c-.003 5.452-4.456 9.908-9.95 9.908zm5.44-7.417c-.3-.149-1.767-.868-2.04-.967-.272-.099-.471-.149-.67.149-.198.297-.769.967-.943 1.166-.173.198-.347.223-.644.074-.3-.149-1.259-.463-2.399-1.475-.886-.788-1.484-1.761-1.658-2.059-.173-.297-.019-.458.131-.606.135-.134.3-.347.45-.521.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.67-1.612-.916-2.207-.241-.579-.486-.5-.67-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.793.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.572-.347z"/>
+    </svg>
+    <span class="wa-tooltip">Order Now</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
